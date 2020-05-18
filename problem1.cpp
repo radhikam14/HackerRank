@@ -13,7 +13,7 @@ void dfs(int idx,bool flg) {
     if(idx == len) {
         tag = true;return;
     }
-    int t;
+    
     for(int i = 9;i >= 0;i--) {
         if(vis[i] > 0) {
             if(flg || i == a2[idx]) {
